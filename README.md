@@ -4,6 +4,9 @@ https://www.kaggle.com/datasets/artermiloff/steam-games-dataset
 Goal
 Project Title: Steam Game Recommendation System
 
+Team Members:
+Jhames Carigma (@C-Jhames) | Siyu Yan (@Siyu-YAN-YSY) | Samipya Bhusal (@bhusalsa) | Arnav Gupta (@arn3v) | Varun Shashivarnam (@varunshashivarnam)
+
 High-Level Goal:
 Build a personalized recommendation system that suggests Steam games to users based on game similarity, genres, tags, and ratings.
 
