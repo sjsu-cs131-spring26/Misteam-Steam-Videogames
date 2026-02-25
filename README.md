@@ -44,3 +44,30 @@ Deliverables
 Recommendation engine
 Interactive demo
 Evaluation of recommendation quality
+
+# DATACARD 
+## Steam Games Dataset
+
+### 1. Source & Provenance
+* **Source:** https://www.kaggle.com/datasets/artermiloff/steam-games-dataset
+	Dataset has been converted to tsv format for better access after downloading from Kaggle.
+* **Format:** TSV
+
+### 2. Physical Statistics
+| File Name | Size (`ls -lh`) | Line Count (`wc -l`) |
+| :--- | :--- | :--- |
+| `steam_games_dataset_cleaned.tsv` | 446MB | 89,619 (inc. header) |
+
+### 3. Structural Metadata
+* **Delimiter:** Tab (`		`)
+* **Header:** Present (Line 1)
+* **Columns:** 47 total
+	app_id: Unique identifier for all the data
+
+### 4. Quality Notes
+* **Missing Data:** 
+	`reviews` column is missing 79.2 K data
+	`score_rank` column is missing all the data
+
+* **Anomalies:** All columns that have multiple data entries are in the format ['','',...]. 
+		`reviews` text are not inside double quotation "" and contain internal new lines.

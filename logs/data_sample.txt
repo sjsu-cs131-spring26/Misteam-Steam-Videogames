@@ -1,0 +1,14 @@
+Script started on 2026-02-22 11:03:51-05:00
+bash-4.4$ cd[K[K()h)e)a)d) )-)n)1)[1P)[1P)1) )o)u)t)/)g)ames_cleaned.tsv) )&)&) )t)a)i)l) )-)n)+)2) )o)u)t/)c)l)e)[1P)[1P)[1P)g)ames_cleaned.tsv) )|) )s)h)u)f) )-)n) )1)0)0)0)[C >>[K Datasets/steam_games_daa[Ktasets_1000.tsv
+bash-4.4$ head -5[K[K-5 Datasets/steam-[K_games_datasets_1000.tsv | cut -f1,2,3,4
+appid	name	release_date	required_age
+1458560	I'm on Observation Duty 3	2020-11-13	0
+303880	Triblaster	2014-07-01	0
+235320	Original War	2014-01-27	0
+1202580	Beyond Eden: Dear Edward	2020-12-29	0
+bash-4.4$ wc -l Datasets/steam_games_datasets_1000.tsv 
+1001 Datasets/steam_games_datasets_1000.tsv
+bash-4.4$ exit
+exit
+
+Script done on 2026-02-22 11:06:19-05:00
