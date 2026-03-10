@@ -1,0 +1,6 @@
+Field checked: FIELD_CATEGORY=29 (genres)
+Counts for common missing tokens:
+empty_rows=0
+na_rows=0
+null_like_rows=0
+empty_list_rows=1

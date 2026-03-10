@@ -1,0 +1,2 @@
+keyword_hit_rows=358
+keywords=horror|survival|multiplayer|puzzle|adventure|action|retro|simulation
