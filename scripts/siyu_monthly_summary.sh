@@ -18,6 +18,6 @@ END {
         printf "%s\t%d\t%.2f\n", m, count[m], avg
     }
 }
-' "$INPUT" | sort | awk 'BEGIN {print "month\tcount\tavg_price"} {print}' > "$OUT_DIR/monthly_price_summary.tsv"
+' "$INPUT" | sort | awk 'BEGIN {OFS="\t"; print "month\tcount\tavg_price"} {print}' > "$OUT_DIR/monthly_price_summary.tsv"
 
 echo "Generated: $OUT_DIR/monthly_price_summary.tsv"
