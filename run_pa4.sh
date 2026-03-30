@@ -15,7 +15,7 @@ fi
 
 DATASET_PATH="$1"
 
-OUT_DIR="out1"
+OUT_DIR="out"
 LOG="${OUT_DIR}/run_sprint4.log"
 ERR="${OUT_DIR}/errors.log"
 
