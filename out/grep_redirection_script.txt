@@ -1,17 +1,0 @@
-Script started on 2026-02-25 17:12:58-05:00
-bash-4.4$ - grep -i action /mnt/scratch/CS131_jelenag/projects/team06_sec3/Misteaam-Steam-Videogames/data/samples/steam_games_datasets_1000.tsv 2> out/grep_errorss.txt | wc -l  | tee /mnt/scratch/CS131_jelenag/projects/team06_sec3/Misteam-Steaam-Videogames/out/grep_tee_action.txtMMM[C[Cgrep -i action /mnt/scratch/CS131_jelenag/projects/team06_sec3/Misteam-Steam-Videogames/data/samples/steam_games_datasets_1000.tsv 2> out/grep_errors.txt | wc -l  | tee /mnt/scratch/CS131_jelenag/projects/team06_sec3/Misteam-Steam[1P-Videogames/out/grep_tee_action.txtMMM[C[C[C[C[C[C[C[C[C[C[Cgrep -i action /mnt/scratch/CS131_jelenag/projects/team06_sec3/Misteam-Steam-Videogames/data/samples/steam_games_datasets_1000.tsv 2> out/grep_errors.txt | wc -l  | tee /mnt/scratch/CS131_jelenag/projects/team06_sec3/Misteam-Steam-[1PVideogames/out/grep_tee_action.txtMMM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cction /mnt/scratch/CS131_jelenag/projects/team06_sec3/Misteam-Steam-Videogames/data/samples/steam_games_datasets_1000.tsv 2> out/grep_errors.txt | wc -l  | tee /mnt/scratch/CS131_jelenag/projects/team06_sec3/Misteam-Steam-V[1Pideogames/out/grep_tee_action.txtMMMAction /mnt/scratch/CS131_jelenag/projects/team06_sec3/Misteam-Steam-Videogames/data/samples/steam_games_datasets_1000.tsv 2> out/grep_errors.txt | wc -l  | tee /mnt/scratch/CS131_jelenag/projects/team06_sec3/Misteam-Steam-Videogames/out/grep_tee_action.txtMMM[C[C[C[Cwi Action /mnt/scratch/CS131_jelenag/projects/team06_sec3/Misteam-Steam-Videogames/data/samples/steam_games_datasets_1000.tsv 2> out/grep_errors.txt | wc -l  | tee /mnt/scratch/CS131_jelenag/projects/team06_sec3/Misteam-Steam-Videogames/out/grep_tee_action.txtMMM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-
-
-
-522
-bash-4.4$ 
-bash-4.4$ 
-bash-4.4$ grep -wi Action /mnt/scratch/CS131_jelenag/projects/team06_sec3/Misteamm-Steam-Videogames/data/samples/steam_games_datasets_1000.tsv 2> out/grep_errors..txt | wc -l  | tee /mnt/scratch/CS131_jelenag/projects/team06_sec3/Misteam-Steamm-Videogames/out/grep_tee_action.txtMMM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvwi Action /mnt/scratch/CS131_jelenag/projects/team06_sec3/Misteam-Steam-Videogames/data/samples/steam_games_datasets_1000.tsv 2> out/grep_errors.txt | wc -l  | tee /mnt/scratch/CS131_jelenag/projects/team06_sec3/Misteam-Steam-Videogames/out/grep_tee_action.txtMMM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-
-
-
-479
-bash-4.4$ exit
-exit
-
-Script done on 2026-02-25 17:16:25-05:00
