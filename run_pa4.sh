@@ -49,5 +49,8 @@ echo
 echo "Generating monthly_price_summary.tsv"
 bash scripts/siyu_monthly_summary.sh "${DATASET_PATH}" "${OUT_DIR}"
 echo
+echo "Generating games_keywords.tsv"
+bash scripts/siyu_keywords_summary.sh "${DATASET_PATH}" "${OUT_DIR}"
+echo
 echo "Done"
 date
