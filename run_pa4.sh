@@ -35,22 +35,28 @@ if [[ ! -f "${DATASET_PATH}" ]]; then
 fi
 
 echo "File size"
-ls -lh "${DATASET_PATH}" | tee "${EVID_DIR}/file_size.txt"
+ls -lh "${DATASET_PATH}" 
 echo
 
 echo "Header preview"
-head -n 3 "${DATASET_PATH}" | tee "${EVID_DIR}/header_preview.txt"
+head -1 "${DATASET_PATH}"
 echo
 
 echo "Row count"
-wc -l "${DATASET_PATH}" | tee "${EVID_DIR}/row_count.txt"
+wc -l "${DATASET_PATH}" 
+echo
+
+echo "Generating Cleaned Games Descrtiptions"
+bash scripts/arnav_game_description.sh "${DATASET_PATH}" "${OUT_DIR}"
 echo
 
 echo "Generating monthly_price_summary.tsv"
 bash scripts/siyu_monthly_summary.sh "${DATASET_PATH}" "${OUT_DIR}"
 echo
+
 echo "Generating games_keywords.tsv"
 bash scripts/siyu_keywords_summary.sh "${DATASET_PATH}" "${OUT_DIR}"
 echo
+
 echo "Done"
 date

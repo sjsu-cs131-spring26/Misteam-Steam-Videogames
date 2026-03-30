@@ -1,0 +1,43 @@
+# Ops proof for Sprint 3
+
+# 1) Run the script in the background
+./scripts/run_sprint3.sh data/samples/steam_games_datasets_1000.tsv $'\t' > /dev/null 2>&1 &
+
+# 2) Job output
+[1]+  Running                 ./scripts/run_sprint3.sh data/samples/steam_games_datasets_1000.tsv '	' > /dev/null 2>&1 &
+
+# 3) PID / process info
+Background job PID observed at launch: 3856355
+
+Command used to inspect processes:
+ps -u "$USER" | grep run_sprint3.sh
+
+Result:
+(no active process was shown because the script completed quickly before the ps check)
+
+# 4) Log update proof
+['Action', 'Adventure', 'Indie', 'Massively Multiplayer', 'Strategy', 'Early Access']
+['Action', 'Adventure', 'Indie', 'Racing']
+['Action', 'Adventure', 'Indie', 'Racing', 'RPG', 'Strategy']
+['Action', 'Adventure', 'Indie', 'RPG']
+['Action', 'Adventure', 'Indie', 'RPG', 'Early Access']
+['Action', 'Adventure', 'Indie', 'RPG', 'Strategy']
+['Action', 'Adventure', 'Indie', 'RPG', 'Strategy', 'Early Access']
+['Action', 'Adventure', 'Indie', 'RPG', 'Strategy', 'Free To Play']
+['Action', 'Adventure', 'Indie', 'Simulation']
+['Action', 'Adventure', 'Indie', 'Simulation', 'Early Access']
+['Action', 'Adventure', 'Indie', 'Simulation', 'Strategy']
+['Action', 'Adventure', 'Indie', 'Strategy']
+['Action', 'Adventure', 'RPG']
+['Action', 'Adventure', 'RPG', 'Early Access']
+['Action', 'Adventure', 'Simulation']
+['Action', 'Adventure', 'Strategy', 'Early Access']
+['Action', 'Casual']
+
+Done
+Mon Mar  9 18:13:41 EDT 2026
+
+# 5) Final job status
+[1]+  Done                    ./scripts/run_sprint3.sh data/samples/steam_games_datasets_1000.tsv '	' > /dev/null 2>&1
+
+
